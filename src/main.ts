@@ -1,5 +1,8 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+// 创建 Vue 应用实例
+const app = createApp(App)
+
+// 挂载到 DOM
+app.mount('#app') // 对应 index.html 中的 #app
