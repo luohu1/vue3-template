@@ -7,6 +7,7 @@ const app = createApp(App)
 
 // 注册插件
 app.use(router)
+app.use(createPinia())
 
 // 挂载到 DOM
 app.mount('#app') // 对应 index.html 中的 #app
